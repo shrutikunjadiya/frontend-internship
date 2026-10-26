@@ -1,49 +1,87 @@
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Projects</title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<body>
 
-        <h1>My Projects</h1>
+    <!-- My Resume -->
+    <h1>My Resume</h1>
+    <p>Hello! My name is Shruti Kunjadiya.</p>
+    <p>I am a B.Sc. IT student and I am learning web development.</p>
 
-        <p>These are some projects I am learning to build.</p>
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#education">Education</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#contact">Contact</a> |
+        <a href="projects.html">My Projects</a>
+    </nav>
 
-        <hr>
+    <hr>
 
-        <h2>Project 1: About Me Page</h2>
-        <p>
-            A simple webpage created using HTML.
-            It contains my introduction and basic information.
-        </p>
+    <!-- About Me -->
+    <h2>About Me</h2>
+    <p>
+        I am interested in computers and technology.
+        I want to improve my programming and website development skills.
+    </p>
 
-        <h2>Project 2: My Resume</h2>
-        <p>
-            A resume webpage with education, skills and contact details.
-        </p>
+    <!-- Education -->
+    <h2 id="education">Education</h2>
+    <ol>
+        <li>B.Sc. Information Technology</li>
+        <li>Higher Secondary Education</li>
+        <li>Secondary Education</li>
+    </ol>
 
-        <h2>Project 3: Student Registration Form</h2>
-        <p>
-            A basic form to practise HTML input fields and labels.
-        </p>
+    <!-- Skills -->
+    <h2 id="skills">My Skills</h2>
+    <ul>
+        <li>HTML
+            <ul>
+                <li>Headings and paragraphs</li>
+                <li>Lists and links</li>
+            </ul>
+        </li>
+        <li>Basic CSS</li>
+        <li>Basic programming</li>
+    </ul>
 
-        <hr>
+    <!-- Contact Details -->
+    <h2 id="contact">Contact Details</h2>
+    <dl>
+        <dt><strong>Name</strong></dt>
+        <dd>Shruti Kunjadiya</dd>
 
-        <h2>Useful Link</h2>
-        <p>
-            <a href="https://developer.mozilla.org/"
-            target="_blank"
-            rel="noopener">
-                Learn HTML on MDN
+        <dt><strong>Course</strong></dt>
+        <dd>B.Sc. IT</dd>
+
+        <dt><strong>Email</strong></dt>
+        <dd>
+            <a href="mailto:your-email@example.com">
+                Send me an email
             </a>
-        </p>
+        </dd>
 
-        <p>
-            <a href="resume.html">Back to Resume</a>
-        </p>
+        <dt><strong>Phone</strong></dt>
+        <dd>
+            <a href="tel:+910000000000">Call me</a>
+        </dd>
+    </dl>
 
-    </body>
-    </html>
+    <hr>
+
+    <p>
+        I enjoy learning new things and practising coding.
+    </p>
+
+    <p>
+        <a href="projects.html">View My Projects</a>
+    </p>
+
+</body>
+</html>
